@@ -1,1 +1,0 @@
-# NIPM_singularity
