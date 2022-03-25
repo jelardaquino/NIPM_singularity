@@ -19,7 +19,7 @@ Atty and Val are the compute clusters for NIPM.
 Atty (atty.nipm.unlv.edu) is the storage server. It has 5 55TB disks and additional storage clusters.
 Val (val.nipm.unlv.edu) is the compute server. It has 8 nodes with 80 cores on each node. 
 
-![](NIPM_singularity/valsetup.png)
+![](../valsetup.png)
 
 ### 1.2 Singularity: container software {#Sec_container_software}
 
