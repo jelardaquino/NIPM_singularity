@@ -9,11 +9,11 @@
 2. [Shell into an instance](#Sec_singularity_instance)
 3. [Run with the exec command](#Sec_singularity_exec)
 
-## 1. Singularity {#Sec_intro}
+## 1. Singularity (#Sec_intro)
 
 Singularity is a software application that allow users to have ‘full control’ over their operating system without the need for any ‘super-user’ privileges using the notion of containers. Singularity can give the user the freedom they need to install the applications, versions, and dependencies for their workflows without impacting the system in any way. For more detailed documentation on singularity see <https://singularity-docs.readthedocs.io/en/latest/>.
 
-### 1.1 Singularity container use on val {#Sec_container_use}
+### 1.1 Singularity container use on val (#Sec_container_use)
 
 Atty and Val are the compute clusters for NIPM.
 Atty (atty.nipm.unlv.edu) is the storage server. It has 5 55TB disks and additional storage clusters.
@@ -21,7 +21,7 @@ Val (val.nipm.unlv.edu) is the compute server. It has 8 nodes with 80 cores on e
 
 ![](https://github.com/jelardaquino/NIPM_singularity/blob/main/valsetup.png)
 
-### 1.2 Singularity: container software {#Sec_container_software}
+### 1.2 Singularity: container software (#Sec_container_software)
 
 When running jobs on val, we can use singularity containers. I have shared two container images under `/data2/han_lab/singularity`.
 `py37.ml.mkl.sif`: includes python3.7, sklearn, and other machine learning related software.
@@ -41,7 +41,7 @@ cp /data2/han_lab/singularity/py37.ml.mkl.sif /scratch/han_lab/
 Once you have the image on a local space on one of the nodes, you can run the image.
 There are two ways to run the image. 
 
-## 2. 'Shell' into an 'instance' {#Sec_singularity_instance}
+## 2. 'Shell' into an 'instance' (#Sec_singularity_instance)
 
 You can make an 'instance' that you can shell into and out of like any other machine. This instance will stay running persistently as you log out and log into the nodes, and you can shell into the machine multiple times and check on the jobs progress. 
 
@@ -73,7 +73,7 @@ singularity instance list
 singularity instance stop node02
 ```
 
-## 3. Run with the exec command {#Sec_singularity_exec}
+## 3. Run with the exec command (#Sec_singularity_exec)
 
 You can run any kind of software that is part of the container using the exec command. Here are some examples. 
 
