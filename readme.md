@@ -1,7 +1,6 @@
----
-title: "NIPM Singularity Containers"
-output: html_document
----
+
+# NIPM Singularity Containers
+
 
 
 1. [Singularity](#Sec_intro)
