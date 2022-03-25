@@ -12,15 +12,15 @@
 ## 1. Singularity 
 
 Singularity is a software application that allow users to have ‘full control’ over their operating system without the need for any ‘super-user’ privileges using the notion of containers. Singularity can give the user the freedom they need to install the applications, versions, and dependencies for their workflows without impacting the system in any way. For more detailed documentation on singularity see <https://singularity-docs.readthedocs.io/en/latest/>.
-
-### 1.1 Singularity container use on val (#Sec_container_use)
+<a name="Sec_container_use"></a>
+### 1.1 Singularity container use on val 
 
 Atty and Val are the compute clusters for NIPM.
 Atty (atty.nipm.unlv.edu) is the storage server. It has 5 55TB disks and additional storage clusters.
 Val (val.nipm.unlv.edu) is the compute server. It has 8 nodes with 80 cores on each node. 
 
 ![](https://github.com/jelardaquino/NIPM_singularity/blob/main/valsetup.png)
-<a name="Sec_container_use"></a>
+<a name="Sec_container_software"></a>
 ### 1.2 Singularity: container software 
 
 When running jobs on val, we can use singularity containers. I have shared two container images under `/data2/han_lab/singularity`.
